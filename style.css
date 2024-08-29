@@ -1,0 +1,26 @@
+*{  /*formatação de todos os elementos de acordo com o navegador */
+   margin: 0px;
+   padding: 0px;
+}
+
+
+body{
+    height:100vh;
+    box-sizing: border-box;
+    background-color: #0C0C0C;
+    color: #f6f6f6;
+    
+  
+}
+
+.titulo-destaque{
+    color: #22d4fd;
+}
+
+
+.apresentacao{
+    display: flex;
+    align-items:center ;
+   
+}
+
