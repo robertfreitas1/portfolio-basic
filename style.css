@@ -64,7 +64,6 @@ body{
     
 } 
 
-
 .apresentacao__links{
     /*div dentro da section para links ancora */
 
@@ -83,8 +82,15 @@ body{
     width: 280px; /*largura.*/
     text-align: center; /*alinhar texto.*/
     border-radius: 16px; /*arrendodamento. */
+    
+   
+    
     font-size: 24px; /*tamanho da fonte. */
     font-weight: 600; /*Peso da fonte. */
    padding:21.5px 0 ; 
    text-decoration: none; /*decoração do texto.*/
+  
+   
 }
+
+
