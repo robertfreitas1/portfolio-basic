@@ -1,16 +1,19 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{  /*formatação de todos os elementos de acordo com o navegador */
-   margin: 0px;
-   padding: 0px;
+   margin: 0px; /*Margin em CSS: Criando Espaço Externo
+   Margin em CSS é como criar um espaço externo em torno de um elemento HTML. Imagine uma caixa dentro de uma sala: a margem seria o espaço entre a caixa e as paredes da sala.*/
+   
+   padding: 0px; /*Padding em CSS: Criando Espaço Interno
+   Padding em CSS é como criar um espaço interno dentro de um elemento HTML. Imagine uma caixa: o padding seria o espaço entre a parede interna da caixa e o objeto que você coloca dentro dela.*/
 }
 
 
 body{
-    height:100vh;
-    box-sizing: border-box;
+    height:100vh;  /*altura da viewport*/
+    box-sizing: border-box; /*Ao definir box-sizing: border-box;, a largura e a altura que você especifica para um elemento se referem ao tamanho total do elemento, incluindo padding e border.*/
     background-color: #0C0C0C;
     color: #f6f6f6;
     
@@ -25,14 +28,14 @@ body{
 .apresentacao{
     margin:10%;
     display: flex;
-    align-items:center ;
+    align-items:center ; /*alinhar inetns. */
     justify-content: space-between;
    
 }
 
 .apresentacao__conteudo{
-    width:  615px;
-    height: 355px;
+    width:  615px; /*largura do elemento. */
+    height: 355px; /*altura do elemento.*/
 }
 
 .apresentacao__conteudo__titulo{
@@ -49,6 +52,21 @@ body{
 
 
 .apresentacao__links{
-    display: flex;
-    justify-content: space-between;
+    display: flex; /*deixa os elementos flexíveis. */
+    justify-content: space-around; /*separação entre elementos.*/
+   
+}
+
+
+.apresentacao__links__link{
+    background-color: #22d4fd; /*cor de fundo do texto.*/
+    color: #000000; /*cor do texto*/
+    font-family: "Krona One", sans-serif; /*familia de fontes.*/
+    width: 280px; /*largura.*/
+    text-align: center; /*alinhar texto.*/
+    border-radius: 16px; /*arrendodamento. */
+    font-size: 24px; /*tamanho da fonte. */
+    font-weight: 600; /*Peso da fonte. */
+   padding:21.5px 0 ; 
+   text-decoration: none; /*decoração do texto.*/
 }
