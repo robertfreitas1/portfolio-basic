@@ -35,7 +35,7 @@ body{
 .apresentacao{
     /*Conteudo main*/
 
-    margin:10%;
+    margin: 10% 15%;
     display: flex; /*deixa o contêiner flex*/
     align-items:center ; /*alinhar itens. */
     justify-content: space-between;
@@ -59,6 +59,7 @@ body{
 
 .apresentacao__conteudo__texto{
     /*parágrafo dentro da section*/
+    
     font-size: 24px;
     font-family: "Montserrat", sans-serif;;
     
