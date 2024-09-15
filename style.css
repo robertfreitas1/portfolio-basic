@@ -72,7 +72,11 @@ body{
     /*div dentro da section para links ancora */
 
     display: flex; /*deixa os elementos flexíveis. */
-    justify-content: space-around; /*separação entre elementos.*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /*separação entre elementos.*/
+    gap: 32px;
+   
    
 }
 
@@ -95,6 +99,14 @@ body{
    text-decoration: none; /*decoração do texto.*/
   
    
+}
+
+
+
+
+
+.rodape{
+
 }
 
 
