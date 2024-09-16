@@ -7,6 +7,8 @@
 
     <style>
         *{
+            padding: 0%;
+            margin: 0%;
            
         }
 
@@ -15,23 +17,30 @@
             box-sizing: border-box;
         }
 
+        .conteiner1{
+            
+           display: flex;
+           flex-direction: column;
+          
+           justify-content: center;
+           padding: 10% 15%;
+           gap: 10px;
+       
+        }
+
         .conteiner2{
-            display: flex; /*deixa os elementos flexíveis. */
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between; /*separação entre elementos.*/
-            gap: 32px;
+
+
+
+        }
+
+        .links{
            
-        }
-        a{
-            color: #000000; 
             background-color: aqua;
-            font-family: Arial, Helvetica, sans-serif
-            text-decoration: none;
         }
-        a:hover{
-            text-decoration: underline;
-        }
+      
+           
+      
     </style>
 </head>
 <body>
@@ -47,9 +56,10 @@
 
             <div class="conteiner2">
                 <h2>Minhas redes sociais:</h2>
-                <a href="#">Instagram</a>
-                <a href="#">GitHub</a>
+                <a class="links" href="""#">Instagram</a>
+                <a class="links" href="#">GitHub</a>
             </div>
+
             </section>
 
 
