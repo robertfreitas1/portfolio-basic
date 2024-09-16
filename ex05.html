@@ -6,10 +6,56 @@
     <title>documento</title>
 
     <style>
-        
+        *{
+           
+        }
+
+        body{
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .conteiner2{
+            display: flex; /*deixa os elementos flexíveis. */
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between; /*separação entre elementos.*/
+            gap: 32px;
+           
+        }
+        a{
+            color: #000000; 
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    
+   <main>
+
+        <section class="conteiner1">
+            <h1>Prática</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem quam aliquam minus eveniet, sunt reprehenderit exercitationem natus perspiciatis porro? Saepe asperiores ipsam quod natus. Earum quis blanditiis quaerat perspiciatis voluptate!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa enim fugit eius quia eos corporis, ipsa nisi accusamus eaque illo sunt earum ducimus ut incidunt aliquid delectus beatae dicta adipisci.</p>
+
+
+
+            <div class="conteiner2">
+                <h2>Minhas redes sociais:</h2>
+                <a href="#">Instagram</a>
+                <a href="#">GitHub</a>
+            </div>
+            </section>
+
+
+   </main>
+
+
+   
 </body>
 </html>

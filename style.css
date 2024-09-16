@@ -81,15 +81,25 @@ body{
 }
 
 
+.apresentacao__links__subtitulo{
+font-family: 'krona one', sans-serif;
+font-weight: 400;
+font-size: 24px;
+
+    }
+
 .apresentacao__links__link{
     /*estiliazção dos links */
 
-    background-color: #22d4fd; /*cor de fundo do texto.*/
-    color: #000000; /*cor do texto*/
+    /*background-color: #22d4fd; cor de fundo do texto.*/
+
+    color: #f6f6f6; /*cor do texto*/
     font-family: "Krona One", sans-serif; /*familia de fontes.*/
-    width: 280px; /*largura.*/
+    width: 378px; /*largura.*/
+    height: 68px; /*Altura*/
     text-align: center; /*alinhar texto.*/
-    border-radius: 16px; /*arrendodamento. */
+    border: 2px solid #22d4fd;
+    border-radius: 8px; /*arrendodamento. */
     
    
     
