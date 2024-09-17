@@ -16,8 +16,10 @@
 body{
     /*corpo do da pagina */
 
-    height:100vh;  /*altura da viewport*/
-    box-sizing: border-box; /*Ao definir box-sizing: border-box;, a largura e a altura que você especifica para um elemento se referem ao tamanho total do elemento, incluindo padding e border.*/
+
+     height: 100vh;
+   
+     box-sizing: border-box;/*Ao definir box-sizing: border-box;, a largura e a altura que você especifica para um elemento se referem ao tamanho total do elemento, incluindo padding e border.*/
     background-color: #0C0C0C;
     color: #f6f6f6;
     
@@ -130,8 +132,5 @@ font-size: 24px;
 
 
 
-.rodape{
-
-}
 
 
