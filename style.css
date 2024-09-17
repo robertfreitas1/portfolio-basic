@@ -81,6 +81,7 @@ body{
 }
 
 
+
 .apresentacao__links__subtitulo{
 font-family: 'krona one', sans-serif;
 font-weight: 400;
@@ -114,6 +115,16 @@ font-size: 24px;
   
    
 }
+.apresentacao__links__link:hover{
+   background-color: #272727;
+   border: 2px solid #0000FF ;
+   
+   
+   padding: 3%;
+   
+}
+
+
 
 
 
