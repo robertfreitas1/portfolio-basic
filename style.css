@@ -13,14 +13,42 @@
 }
 
 
+
+.cabecalho{
+    display: flex;
+   
+}
+
+.cabecalho__menu__link{
+            font-size: 18px;
+            color:#333;
+            margin: 0 10px;
+            padding: 5px 10px;
+            text-decoration: none;
+    }
+
+    .cabecalho__menu__link:hover {
+        color: #007bff;
+    }
+
+    .cabecalho__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho__menu__link {
+        padding: 10px 15px;
+    }
+
 body{
     /*corpo do da pagina */
 
 
-     height: 100vh; 
+    
    
      box-sizing: border-box;/*Ao definir box-sizing: border-box;, a largura e a altura que você especifica para um elemento se referem ao tamanho total do elemento, incluindo padding e border.*/
-    background-color: #0C0C0C;
+    background-color: #000000;
     color: #f6f6f6;
     
   
@@ -37,7 +65,7 @@ body{
 .apresentacao{
     /*Conteudo main*/
 
-    padding: 10% 15%;
+    padding: 8% 15%;
     display: flex; /*deixa o contêiner flex*/
     align-items:center ; /*alinhar itens. */
     justify-content: space-between;
