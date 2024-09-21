@@ -3,13 +3,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
  /*importação de fontes através do goolge fonts */
 
-*{  /*formatação de todos os elementos de acordo com o navegador */
 
-   margin: 0px; /*Margin em CSS: Criando Espaço Externo
-   Margin em CSS é como criar um espaço externo em torno de um elemento HTML. Imagine uma caixa dentro de uma sala: a margem seria o espaço entre a caixa e as paredes da sala.*/
+ :root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd ;
+    --cor-terciaria2: #0000FF;
+    --cor-hover: #272727;
 
-   padding: 0px; /*Padding em CSS: Criando Espaço Interno
-   Padding em CSS é como criar um espaço interno dentro de um elemento HTML. Imagine uma caixa: o padding seria o espaço entre a parede interna da caixa e o objeto que você coloca dentro dela.*/
+
+    --font-primaria:  "Krona One", sans-serif;
+    --font-secundaria:  "Montserrat", sans-serif;
+
+}
+ 
+
+*{  
+
+   margin: 0px; 
+
+   padding: 0px; 
 }
 
 
@@ -24,7 +37,7 @@ body{
     
    
      box-sizing: border-box;/*Ao definir box-sizing: border-box;, a largura e a altura que você especifica para um elemento se referem ao tamanho total do elemento, incluindo padding e border.*/
-    background-color: #000000;
+    background-color: var(--cor-primaria);
     color: #f6f6f6;
     
   
@@ -45,10 +58,10 @@ body{
 
 
 .cabecalho__menu__link{
-                font-family: 'montserrast', sans-serif ;
+                font-family: var(--font-secundaria) ;
                 font-size: 24px;
                 font-weight: 600;
-                color: #22d4fd;
+                color: var(--cor-terciaria) ;
                 text-decoration: none;
 
         }
@@ -70,8 +83,8 @@ body{
     /*conteúdo section */
 
 
-    width:  615px; /*largura do elemento. */
-    height: 355px; /*altura do elemento.*/
+    width:  615px; 
+    height: 355px; 
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -80,11 +93,11 @@ body{
 .apresentacao__conteudo__titulo{
     /*h1 dentro das section */
     font-size: 36px;
-    font-family: "Krona One", sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .titulo-destaque{
-    color: #22d4fd;
+    color: var(--cor-terciaria);
 }
 
 
@@ -92,7 +105,7 @@ body{
     /*parágrafo dentro da section*/
     
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;;
+    font-family:  var(--font-secundaria);
     
 } 
 
@@ -111,7 +124,7 @@ body{
 
 
 .apresentacao__links__subtitulo{
-font-family: 'krona one', sans-serif;
+font-family: var(--font-primaria);
 font-weight: 400;
 font-size: 24px;
 
@@ -120,7 +133,7 @@ font-size: 24px;
 .apresentacao__links__link{
     /*estiliazção dos links */
 
-    /*background-color: #22d4fd; cor de fundo do texto.*/
+  
     
     display: flex;
     justify-content: center;
@@ -128,21 +141,22 @@ font-size: 24px;
    
    
     
-    color: #f6f6f6; /*cor do texto*/
-    width: 378px; /*largura.*/
-    height: 68px; /*Altura*/
-    text-align: center; /*alinhar texto.*/
+    color: var(--cor-secundaria); /*cor do texto*/
+    width: 378px; 
+    height: 68px; 
+    text-align: center; 
     text-decoration: none;
-    border: 2px solid #22d4fd;
-    border-radius: 8px; /*arrendodamento. */
-    font-family: 'montserrat', sans-serif;
-    font-size: 24px; /*tamanho da fonte. */
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px; 
+    font-family: var(--font-secundaria) ;
+    font-size: 24px; 
     font-weight: 600; /*Peso da fonte. */
     padding:21.5px 0 ; 
    
   
    
 }
+
 .apresentacao__links__link:hover{
    background-color: #272727;
    border: 2px solid #0000FF ;
