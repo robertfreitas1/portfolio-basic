@@ -59,7 +59,7 @@ body{
 
 .cabecalho__menu__link{
                 font-family: var(--font-secundaria) ;
-                font-size: 24px;
+                font-size: 1.5rem;
                 font-weight: 600;
                 color: var(--cor-terciaria) ;
                 text-decoration: none;
@@ -92,7 +92,7 @@ body{
 
 .apresentacao__conteudo__titulo{
     /*h1 dentro das section */
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--font-primaria);
 }
 
@@ -104,7 +104,7 @@ body{
 .apresentacao__conteudo__texto{
     /*parágrafo dentro da section*/
     
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family:  var(--font-secundaria);
     
 } 
@@ -126,7 +126,7 @@ body{
 .apresentacao__links__subtitulo{
 font-family: var(--font-primaria);
 font-weight: 400;
-font-size: 24px;
+font-size: 1.5rem;
 
     }
 
@@ -149,7 +149,7 @@ font-size: 24px;
     border: 2px solid var(--cor-terciaria);
     border-radius: 8px; 
     font-family: var(--font-secundaria) ;
-    font-size: 24px; 
+    font-size: 1.5rem; 
     font-weight: 600; /*Peso da fonte. */
     padding:21.5px 0 ; 
    
