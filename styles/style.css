@@ -79,11 +79,16 @@ body{
    
 }
 
+.apresentacao__imagem{
+    width: 50%;
+
+}
+
 .apresentacao__conteudo{
     /*conteúdo section */
 
 
-    width:  615px; 
+    width:  50%; 
     height: 355px; 
     display: flex;
     flex-direction: column;
@@ -130,7 +135,7 @@ font-size: 1.5rem;
 
     }
 
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
     /*estiliazção dos links */
 
   
@@ -142,7 +147,7 @@ font-size: 1.5rem;
    
     
     color: var(--cor-secundaria); /*cor do texto*/
-    width: 378px; 
+    width: 59%; 
     height: 68px; 
     text-align: center; 
     text-decoration: none;
@@ -165,6 +170,7 @@ font-size: 1.5rem;
    padding: 3%;
    
 }
+
 
 
 
