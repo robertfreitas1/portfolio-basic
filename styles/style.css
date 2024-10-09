@@ -76,6 +76,7 @@ body{
     display: flex; /*deixa o contêiner flex*/
     align-items:center ; /*alinhar itens. */
     justify-content: space-between;
+    gap: 5.125rem ;
    
 }
 
@@ -171,7 +172,14 @@ font-size: 1.5rem;
    
 }
 
+@media (
+    max-width: 1285px) {
+.apresentacao {
+    flex-direction: column-reverse;
 
+}
+
+    }
 
 
 
