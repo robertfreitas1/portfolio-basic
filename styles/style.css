@@ -188,17 +188,18 @@ font-size: 1.5rem;
         }
     .apresentacao {
     flex-direction: column-reverse;
+    padding: 5%;
+   
 
+
+}
+.apresentacao__conteudo{
+    width: auto;
 }
 
     }
 
-    @media (max-width: 480px){
-        body{
-            background-color: red;
-        }
-    }
-
+   
 
 
 
